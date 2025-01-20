@@ -1,4 +1,4 @@
-FROM mysql/mysql-server:8.0.30
+FROM cr.loongnix.cn/library/mysql:5.7.39
 
 MAINTAINER dudiao(idudaio@163.com)
 

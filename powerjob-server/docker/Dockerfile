@@ -1,5 +1,5 @@
-# 基础镜像（支持 amd64 & arm64），based on Ubuntu 18.04.4 LTS
-FROM adoptopenjdk:8-jdk-hotspot
+# 基础镜像
+FROM cr.loongnix.cn/library/openjdk:8-buster
 # 维护者
 MAINTAINER tengjiqi@gmail.com
 # 下载并安装 maven
